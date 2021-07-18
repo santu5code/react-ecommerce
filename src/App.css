@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+
+.logo-text{
+  color:rgb(46, 170, 219);
+}
+a.dropdown-item{
+  color: rgb(15 151 191);
+}
+.dropdown-item:hover:hover{
+  background-color: transparent;
+  font-weight: 500;
+  
+}
+.dropdown-menu.show{
+  border-radius: 20px;
+  padding: 0px;
+}
+.navbar-light .navbar-nav a.nav-link {
+  color: rgb(15 151 191);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dropdown-divider {
+  margin: 0px !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slider-image{
+  opacity: 0.6;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.product-box{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.product-text{
+  color:rgb(95, 158, 160);
+}
+.sr-only{
+  color:black;
+}
+a.carousel-control-prev{
+  color: black !important;
+}
+.cart-item-row{
+  background-color: cadetblue;
+  color: #fff;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+a.cart-item-row{
+  text-decoration: none;
+}
+a.cart-item-row:hover{
+  color:#000;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+.cart-item-row img{
+  width:120px;
+}
+.remove-btn{
+  font-size: 25px;
+}
+.remove-btn:hover{
+   color: crimson;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart-total{
+  background-color: rgb(95, 158, 160);
+  color:#fff;
 }

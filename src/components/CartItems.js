@@ -45,6 +45,7 @@ export default function CartStore() {
   if (items.length === 0) {
     return (
       <main>
+        <NavBar />
         <p>cart is empty</p>
       </main>
     );
